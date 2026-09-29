@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>สถานที่สอบ - ระบบรับสมัครนักศึกษา</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div style="display: flex; align-items: center; gap: 12px;">
+                <img src="image/univescity.png" alt="KMUTNB Logo" style="width: 45px; height: 45px; border-radius: 50%; object-fit: contain; background-color: white;">
+                <div>
+                    <h1 style="font-size: 16px; margin: 0;">รับสมัครนักศึกษา</h1>
+                    <p style="font-size: 11px; margin: 0; color: #ffedd5;">มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ</p>
+                </div>
+            </div>
+            <nav style="display: flex; gap: 24px;">
+                <a href="index.html">หน้าแรก</a>
+                <a href="regis.html">สมัครเรียน</a>
+                <a href="schedule.html">กำหนดการ</a>
+                <a href="step.html">ขั้นตอนการสมัคร</a>
+                <a href="contact.html">ติดต่อเรา</a>
+                <a href="exam_location.html" class="active">สถานที่สอบ</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- แบนเนอร์หัวเว็บ -->
+    <div style="background: linear-gradient(to right, #f39f32, #f09f69); padding: 16px 0; text-align: center; overflow: hidden;">
+        <div style="max-width: 1200px; margin: 0 auto; padding: 0 16px;">
+            <img src="image/B1.jpg" alt="กำหนดการรับสมัครนักศึกษาใหม่ ปีการศึกษา 2570" style="width: 100%; max-height: 220px; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.2);">
+        </div>
+    </div>
+
+    <!-- เมนูย่อย -->
+    <div class="submenu-bar">
+        <div class="submenu-container">
+            <a href="index.html"><span>🏠</span>หน้าแรก</a>
+            <a href="regis.html"><span>📝</span>สมัครเรียน</a>
+            <a href="schedule.html"><span>📅</span>กำหนดการ</a>
+            <a href="step.html"><span>📋</span>ขั้นตอน</a>
+            <a href="contact.html"><span>📞</span>ติดต่อ</a>
+            <a href="exam_location.html" class="active"><span>📍</span>สถานที่สอบ</a>
+        </div>
+    </div>
+
+    <!-- เนื้อหาหลัก -->
+    <main style="max-width: 1000px; margin: 32px auto; padding: 0 16px;">
+        <div class="card">
+            <h2 class="section-title" style="display: flex; align-items: center; gap: 10px;">
+                <span style="background-color: #ea580c; color: white; width: 36px; height: 36px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 18px;">📍</span>
+                ประกาศสถานที่สอบข้อเขียน / สัมภาษณ์
+            </h2>
+            <div style="overflow-x: auto; margin-top: 16px;">
+                <table style="width: 100%; border-collapse: collapse; font-size: 14px;">
+                    <thead>
+                        <tr style="background-color: #ffedd5; color: #9a3412;">
+                            <th style="padding: 12px; border: 1px solid #e5e7eb;">สนามสอบ / อาคาร</th>
+                            <th style="padding: 12px; border: 1px solid #e5e7eb;">กลุ่มผู้เข้าสอบ</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="padding: 12px; border: 1px solid #e5e7eb; font-weight: 600;">อาคารหอประชุมใหญ่ มจพ. (กรุงเทพฯ)</td>
+                            <td style="padding: 12px; border: 1px solid #e5e7eb; color: #4b5563;">คณะวิศวกรรมศาสตร์ และคณะเทคโนโลยีอุตสาหกรรม</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 12px; border: 1px solid #e5e7eb; font-weight: 600;">อาคาร 86 คณะครุศาสตร์อุตสาหกรรม</td>
+                            <td style="padding: 12px; border: 1px solid #e5e7eb; color: #4b5563;">คณะครุศาสตร์อุตสาหกรรมฯ และคณะวิทยาศาสตร์ประยุกต์</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 12px; border: 1px solid #e5e7eb; font-weight: 600;">ศูนย์กิจการนักศึกษา มจพ. ปราจีนบุรี</td>
+                            <td style="padding: 12px; border: 1px solid #e5e7eb; color: #4b5563;">นักศึกษาวิทยาเขตปราจีนบุรีทั้งหมด</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+
+    <footer style="background-color: #ea580c; color: white; text-align: center; font-size: 12px; padding: 24px 0; margin-top: 48px; width: 100%; box-sizing: border-box;">
+        <div style="max-width: 1200px; margin: 0 auto; padding: 0 16px;">
+            <p style="margin: 0 0 6px 0; font-weight: bold;">มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ (KMUTNB)</p>
+            <p style="margin: 0;">1518 ถนนประชาราษฎร์ 1 แขวงวงศ์สว่าง เขตบางซื่อ กรุงเทพฯ 10800</p>
+        </div>
+    </footer>
+</body>
+</html>
